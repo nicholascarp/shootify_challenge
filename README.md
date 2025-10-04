@@ -13,7 +13,10 @@ Key features:
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
+```
+
 ## Expected input layout
+```bash
 input_root/
   sample_0001/
     still_life.jpg
@@ -23,10 +26,12 @@ input_root/
     still_life.jpg
     on_model.jpg
   ...
-
+```
 # Run
+```bash
 python scripts/process_folder.py \
   --input-root /path/to/your/folder \
   --output-root /path/to/output \
   --device auto \
   --min-degrade 4.5
+```

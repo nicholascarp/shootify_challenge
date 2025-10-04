@@ -1,0 +1,10 @@
+opencv-python-headless
+torch
+torchvision
+numpy
+tqdm
+pillow
+colour-science
+pyciede2000
+scikit-learn
+pot

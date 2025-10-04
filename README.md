@@ -23,3 +23,10 @@ input_root/
     still_life.jpg
     on_model.jpg
   ...
+
+# Run
+python scripts/process_folder.py \
+  --input-root /path/to/your/folder \
+  --output-root /path/to/output \
+  --device auto \
+  --min-degrade 4.5

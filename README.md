@@ -12,3 +12,14 @@ Key features:
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
+
+## Expected input layout
+input_root/
+  sample_0001/
+    still_life.jpg
+    still_mask.png        # optional (auto-generated if missing)
+    on_model.jpg          # or on_model_orig.jpg
+  sample_0002/
+    still_life.jpg
+    on_model.jpg
+  ...

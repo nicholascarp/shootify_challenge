@@ -33,7 +33,7 @@ input_root/
     on_model.jpg
   ...
 ```
-# Run - Batch an entire folder
+## Run - Batch an entire folder
 ```bash
 python scripts/process_folder.py \
   --input-root  /path/to/my_input \
@@ -43,7 +43,7 @@ python scripts/process_folder.py \
 ```
 
 
-# Run - Common Flags
+### Run - Common Flags
 ```bash
 Common flags:
 --device {auto|cpu|cuda} (default: auto)
@@ -53,7 +53,7 @@ Common flags:
 
 ```
 
-# Run - Outputs & metrics
+### Run - Outputs & metrics
 ```bash
 Outputs & metrics
 Per sample (inside /path/to/my_output/<sample_name>/):
